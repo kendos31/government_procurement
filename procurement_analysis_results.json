@@ -1,0 +1,221 @@
+{
+  "forecast": {
+    "next_6_months": [
+      "1.0978947e+09",
+      "1.398303e+09",
+      "1.2955994e+09",
+      "1.2953432e+09",
+      "1.2206646e+09",
+      "1.367388e+09"
+    ],
+    "model_used": "XGBoost",
+    "model_performance": {
+      "MAE": 395826236.10038465,
+      "RMSE": 485310755.8514156,
+      "R2": 0.4222810903064498,
+      "predictions": "[1.3236010e+09 1.8783727e+09 9.5233133e+08 1.0230367e+09 1.1665363e+09\n 1.2165681e+09 1.4465590e+09 1.0995475e+09 1.3838751e+09 1.6286973e+09\n 1.4023592e+09 8.7648032e+08 1.0978947e+09]"
+    }
+  },
+  "anomalies": {
+    "count": 1312,
+    "percentage": 4.996762768023765,
+    "total_value": 20183978398.67,
+    "top_anomalies": [
+      {
+        "tender_no.": "NEA000ETT19300029",
+        "agency": "National Environment Agency",
+        "awarded_amt": 1493179167.0,
+        "supplier_name": "KEPPEL SEGHERS ENGINEERING SINGAPORE PTE. LTD."
+      },
+      {
+        "tender_no.": "MPA000ETT16000051",
+        "agency": "Maritime and Port Authority of Singapore",
+        "awarded_amt": 1457643000.0,
+        "supplier_name": "PENTA-OCEAN CONSTRUCTION CO LTD"
+      },
+      {
+        "tender_no.": "HDB000ETT14000168",
+        "agency": "Housing and Development Board",
+        "awarded_amt": 1030000000.0,
+        "supplier_name": "SANTARLI CONSTRUCTION PTE. LTD."
+      },
+      {
+        "tender_no.": "LTA000ETT17300052",
+        "agency": "Land Transport Authority",
+        "awarded_amt": 809358000.0,
+        "supplier_name": "SAMSUNG C&T CORPORATION"
+      },
+      {
+        "tender_no.": "MOE000ETT16000049",
+        "agency": "Ministry of Education",
+        "awarded_amt": 800000000.0,
+        "supplier_name": "NCS PTE. LTD."
+      },
+      {
+        "tender_no.": "LTA000ETT17300198",
+        "agency": "Land Transport Authority",
+        "awarded_amt": 798970000.0,
+        "supplier_name": "LUM CHANG BUILDING CONTRACTORS PTE LTD."
+      },
+      {
+        "tender_no.": "HLTHQ0ETT15000020",
+        "agency": "Ministry of Health-Ministry Headquarter",
+        "awarded_amt": 674417748.0,
+        "supplier_name": "PENTA-OCEAN CONSTRUCTION CO LTD"
+      },
+      {
+        "tender_no.": "PUB000ETT18300253",
+        "agency": "Public Utilities Board",
+        "awarded_amt": 668218000.0,
+        "supplier_name": "KOH BROTHERS BUILDING & CIVIL ENGINEERING CONTRACTOR (PTE.) LTD."
+      },
+      {
+        "tender_no.": "LTA000ETT17300177",
+        "agency": "Land Transport Authority",
+        "awarded_amt": 537144000.0,
+        "supplier_name": "Ssangyong Engineering & Construction Co Ltd - Astaldi S.p.A. Singapore Branch Joint Venture"
+      },
+      {
+        "tender_no.": "DEF000ETT17000244",
+        "agency": "Ministry of Defence",
+        "awarded_amt": 525270000.0,
+        "supplier_name": "KTC CIVIL ENGINEERING & CONSTRUCTION PTE LTD"
+      },
+      {
+        "tender_no.": "PUB000ETT16000279",
+        "agency": "Public Utilities Board",
+        "awarded_amt": 520000000.0,
+        "supplier_name": "PENTA-OCEAN CONSTRUCTION CO LTD"
+      },
+      {
+        "tender_no.": "PUB000ETT16000278",
+        "agency": "Public Utilities Board",
+        "awarded_amt": 499390000.0,
+        "supplier_name": "ED. ZUBLIN AG, SINGAPORE BRANCH"
+      },
+      {
+        "tender_no.": "PUB000ETT16000280",
+        "agency": "Public Utilities Board",
+        "awarded_amt": 494581448.0,
+        "supplier_name": "LEIGHTON CONTRACTORS (ASIA) LIMITED (SINGAPORE BRANCH)"
+      },
+      {
+        "tender_no.": "LTA000ETT17300137",
+        "agency": "Land Transport Authority",
+        "awarded_amt": 482500000.0,
+        "supplier_name": "Ssangyong Engineering & Construction Co.,Ltd - Wai Fong Construction Pte Ltd Joint Venture"
+      },
+      {
+        "tender_no.": "PUB000ETT17000062",
+        "agency": "Public Utilities Board",
+        "awarded_amt": 472168000.0,
+        "supplier_name": "SHANGHAI TUNNEL ENGINEERING CO (SINGAPORE) PTE LTD"
+      },
+      {
+        "tender_no.": "PUB000ETT19300281",
+        "agency": "Public Utilities Board",
+        "awarded_amt": 449631700.9,
+        "supplier_name": "SINOHYDRO CORPORATION LIMITED (SINGAPORE BRANCH)"
+      },
+      {
+        "tender_no.": "LTA000ETT17300162",
+        "agency": "Land Transport Authority",
+        "awarded_amt": 446015559.7,
+        "supplier_name": "CHINA RAILWAY FIRST GROUP CO., LTD. SINGAPORE BRANCH"
+      },
+      {
+        "tender_no.": "PUB000ETT19300190",
+        "agency": "Public Utilities Board",
+        "awarded_amt": 433000000.0,
+        "supplier_name": "CES_SDC PTE. LTD."
+      },
+      {
+        "tender_no.": "HDB000ETT18300186",
+        "agency": "Housing and Development Board",
+        "awarded_amt": 418055000.0,
+        "supplier_name": "TOA CORPORATION"
+      },
+      {
+        "tender_no.": "PUB000ETT17000063",
+        "agency": "Public Utilities Board",
+        "awarded_amt": 340118000.0,
+        "supplier_name": "NISHIMATSU CONSTRUCTION CO LTD"
+      }
+    ]
+  },
+  "summary_stats": {
+    "total_contracts": 26257,
+    "total_spending": 124367608009.96628,
+    "avg_contract_value": 4736550.558326019,
+    "top_agencies": {
+      "total_spending": {
+        "Land Transport Authority": 38044959757.74,
+        "Housing and Development Board": 24811514652.348537,
+        "Public Utilities Board": 12361747751.454748,
+        "Jurong Town Corporation": 7445022006.35,
+        "Ministry of Health-Ministry Headquarter": 6173593947.97,
+        "Ministry of Home Affairs-Ministry Headquarter": 5615087493.28,
+        "National Environment Agency": 4218214725.945,
+        "Ministry of Education": 3625505928.32,
+        "National Parks Board": 1864536085.898,
+        "Maritime and Port Authority of Singapore": 1825432276.96
+      },
+      "contract_count": {
+        "Land Transport Authority": 1085,
+        "Housing and Development Board": 2029,
+        "Public Utilities Board": 1789,
+        "Jurong Town Corporation": 704,
+        "Ministry of Health-Ministry Headquarter": 414,
+        "Ministry of Home Affairs-Ministry Headquarter": 1212,
+        "National Environment Agency": 746,
+        "Ministry of Education": 846,
+        "National Parks Board": 578,
+        "Maritime and Port Authority of Singapore": 267
+      }
+    },
+    "monthly_pattern": {
+      "mean": {
+        "1": 5430498.787528259,
+        "2": 5247887.432635135,
+        "3": 5545109.680156804,
+        "4": 4546280.509641001,
+        "5": 3328627.0918268794,
+        "6": 5098487.247871576,
+        "7": 4074910.539920263,
+        "8": 3574663.01792234,
+        "9": 4906537.09785531,
+        "10": 3622203.951228288,
+        "11": 5381289.032258858,
+        "12": 5607057.689013889
+      },
+      "std": {
+        "1": 37952462.33756279,
+        "2": 43378710.76662835,
+        "3": 55931867.39605725,
+        "4": 39853463.222417496,
+        "5": 24679493.273734316,
+        "6": 26764832.728279293,
+        "7": 32868831.72989429,
+        "8": 29743993.270352595,
+        "9": 44780408.56946057,
+        "10": 22455582.76459126,
+        "11": 41581837.371985845,
+        "12": 34622956.841752514
+      },
+      "count": {
+        "1": 2443,
+        "2": 2072,
+        "3": 2932,
+        "4": 2117,
+        "5": 2195,
+        "6": 2227,
+        "7": 2132,
+        "8": 1983,
+        "9": 1949,
+        "10": 2015,
+        "11": 2032,
+        "12": 2160
+      }
+    }
+  }
+}
